@@ -1,56 +1,252 @@
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="assets/ieee-logo.png" alt="Bootstrap" width="30" height="24">
-              </a>
-              <a class="navbar-brand" href="#">IEEE IndiCon</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <style>
+        .navbar img {
+            width: 1.85rem;
+            height: 1.85rem;
+        }
+
+        .navbar a {
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark"">
+        <div class=" container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/ieee-logo.png" alt="Bootstrap" width="30px" height="24px">
+        </a>
+        <a class="navbar-brand" href="#">IEEE IndiCon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="resources.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Resources
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="resources.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Resources
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="dates.html">Important Dates</a></li>
-                      <li><a class="dropdown-item" href="links.html">Important Links</a></li>
+                        <li><a class="dropdown-item" href="dates.html">Important Dates</a></li>
+                        <li><a class="dropdown-item" href="links.html">Important Links</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="committees.html">Committees</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="callforpapers.html">Call for Papers</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link active" href="registration.html">Registration</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="fellowship.html">Fellowship/Grants</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="travel.html">Venue/Travel</a>
-                  </li>
-                  <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <h1
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: rgb(101, 123, 188); color: white; border-radius: 20px; text-align: center; margin: 20px;">
+        Registration</h1>
+    <div class="container">
+        <table class="table table-striped table-bordered table-hover mt-5">
+            <tbody>
+                <tr class="active">
+                    <th>Category</th>
+                    <th colspan="2">Early Bird Rates</th>
+                    <th colspan="2">Standard Rates</th>
+                </tr>
+                <tr class="active">
+                    <th></th>
+                    <th>IEEE</th>
+                    <th>non-IEEE</th>
+                    <th>IEEE</th>
+                    <th>non-IEEE</th>
+                </tr>
+                <tr class="active">
+                    <td>Indian Author (Academia)</td>
+                    <td>10000</td>
+                    <td>11500</td>
+                    <td>11000</td>
+                    <td>12500</td>
+                </tr>
+                <tr class="active">
+                    <td>Indian Author (Industry)</td>
+                    <td>11000</td>
+                    <td>12500</td>
+                    <td>12000</td>
+                    <td>13500</td>
+                </tr>
+                <tr class="active">
+                    <td>Indian Student author</td>
+                    <td>8500</td>
+                    <td>9500</td>
+                    <td>9500</td>
+                    <td>10500</td>
+                </tr>
+                <tr class="active">
+                    <td>Indian non-author attendee</td>
+                    <td>7000</td>
+                    <td>8000</td>
+                    <td>8000</td>
+                    <td>9000</td>
+                </tr>
+                <tr class="active">
+                    <td>Indian author Additional paper rate*</td>
+                    <td>2000/paper</td>
+                    <td>2000/paper</td>
+                    <td>3000/paper</td>
+                    <td>3000/paper</td>
+                </tr>
+                <tr class="active">
+                    <td>Foreign Author</td>
+                    <td>$300</td>
+                    <td>$350</td>
+                    <td>$350</td>
+                    <td>$400</td>
+                </tr>
+                <tr class="active">
+                    <td>Foreign student author</td>
+                    <td>$250</td>
+                    <td>$300</td>
+                    <td>$300</td>
+                    <td>$350</td>
+                </tr>
+                <tr class="active">
+                    <td>Foreign Author additional papers*</td>
+                    <td>$50/paper</td>
+                    <td>$50/paper</td>
+                    <td>$75/paper</td>
+                    <td>$75/paper</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <p style="padding: 1rem 4rem 1rem 4rem; text-align: center; color: rgb(129, 82, 82);">
+            Note : Every accepted paper can have up to 6 pages in the final PDF. If needed, additional pages (maximum 2
+            more
+            additional pages apart from basic 6 pages) can be added to make the final version of the paper. This has to
+            be done by paying an extra charge of INR 2000 per additional page at the time of author registration
+            payment.
+        </p>
+        <div class="container d-flex flex-lg-row flex-column align-items-start">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h2
+                    style="padding: 5px; margin: 30px; text-align: center; background-color: rgb(217, 230, 246); border-radius: 30px; width: 50%;">
+                    For Authors
+                </h2>
+                <ol style="text-align: justify;">
+                    <li>At least one of the authors of every accepted paper must register for the conference as author
+                        and present the paper in order for it to be included in the conference proceedings of INDICON
+                        2023, and subsequent submission to IEEE Xplore® digital library.</li>
+                    <li>If more than one author of an accepted paper wishes to attend the conference, all such authors
+                        need to be registered separately by paying applicable registration fee.</li>
+                    <li>Additional authors (other than those who are included in the manuscript submitted for review)
+                        cannot be added to the camera-ready paper.</li>
+                    <li>Non-refundable registration fee must be paid prior to uploading the final IEEE formatted,
+                        Camera-ready version of the paper and e-copyright form.</li>
+                </ol>
             </div>
-          </nav>
-    </body>
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h2
+                    style="padding: 5px; margin: 30px; text-align: center; background-color: rgb(217, 230, 246); border-radius: 30px; width: 50%;">
+                    For Attendees
+                </h2>
+                <ol style="text-align: justify;">
+                    <li>All participants need to be registered to attend the INDICON 2023 by paying the requisite
+                        registration fees.</li>
+                    <li>The registration fees include the conference kit, access/admission to tutorials &amp; technical
+                        sessions, lunch on all conference days, morning and evening refreshments, banquet dinner,
+                        access/admission to cultural events as part of the conference.</li>
+                    <li>Please note that the fees shown above are inclusive of all taxes and levies. Any gateway charges
+                        along with applicable taxes or levies, if any, will have to be borne by the registrant.</li>
+                    <li>IEEE members are requested to upload IEEE membership details during the online registration
+                        process, if registering under IEEE category.</li>
+                    <li>Students are requested to upload valid student ID card (front and back side) during the online
+                        registration process, if registering under that student category.</li>
+                    <li>Please keep a copy of the transaction ID, generated by the payment gateway as well as by your
+                        bank. You may need these later if you need to track your payment/registration.</li>
+                    <li>All correspondence regarding registration for INDICON 2023 should contain Paper ID as well as
+                        registration confirmation number.</li>
+                    <li>Please note that INDICON 2023, or the organizing institute (NIT Warangal), represented by the
+                        Organizing Committee as well as the IEEE India Council or IEEE Kolkata Section, will not be
+                        responsible for any loss, financial or otherwise, caused by improper transactions </li>conducted
+                    online. While organizers have taken all reasonable precautions to ensure a safe online transaction,
+                    it is the registrant’s responsibility, while paying the registration fee, to secure their user IDs,
+                    passwords, Paper ID, etc.
+                    <li>Student authors those who wish to apply for fellowship may do it separately and the organizing
+                        committee will decide on such cases as per policy norms. Link for this will be provided after
+                        the last date of submission of camera ready version of the paper.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h2
+                    style="padding: 5px; margin: 30px; text-align: center; background-color: rgb(217, 230, 246); border-radius: 30px; width: 50%;">
+                    No Show Policy
+                </h2>
+                <p style="font-size: 1rem; text-align: center;">
+                    Any accepted paper included in the final program is expected to have at least one author attend and
+                    present the paper at the conference. Non-presented paper will not be submitted to IEEE Xplore®
+                    digital library as per IEEE no-show policy.
+                </p>
+            </div>
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h2
+                    style="padding: 5px; margin: 30px; text-align: center; background-color: rgb(217, 230, 246); border-radius: 30px; width: 50%;">
+                    Transfer Policy
+                </h2>
+                <p style="font-size: 1rem; text-align: center;">
+                    All requests for registration transfers must be provided in writing and email, 30th November 2023.
+                    Registration rate difference will apply depending on the membership status of the new registration.
+                </p>
+            </div>
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h2
+                    style="padding: 5px; margin: 30px; text-align: center; background-color: rgb(217, 230, 246); border-radius: 30px; width: 50%;">
+                    Substitution Policy
+                </h2>
+                <p style="font-size: 1rem; text-align: center;">
+                    If an author or co-author is NOT available to present the paper at the conference, the TPC Chair can
+                    grant permission in some extreme cases to have the paper presented by a qualified substitute
+                    presenter. The deadline to submit a substitute presenter is November 30, 2023.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>© 2024 Copyright. &nbsp; &nbsp; &nbsp; &nbsp; All Rights Reserved. &nbsp; &nbsp; &nbsp; &nbsp; Designed
+                by
+                Punjab Engineering College.</p>
+        </div>
+    </footer>
+</body>
+
 </html>
