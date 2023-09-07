@@ -24,6 +24,15 @@
             white-space: nowrap;
             overflow: hidden;
         }
+
+        .card p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            line-clamp: 6;
+            -webkit-box-orient: vertical;
+        }
     </style>
 </head>
 
@@ -73,11 +82,11 @@
     </nav>
     <div class="mb-3 container d-flex align-items-center justify-content-center">
         <h1
-          style="width: 60%; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  background-color: rgb(101, 123, 188); color: white; border-radius: 20px; text-align: center; margin: 20px;">
-          About Us</h1>
-      </div>
-    <div class="container d-flex flex-lg-row flex-column justify-content-center align-items-center">
-        <div class="card" style="width: 420px; margin: 30px; height: 600px;">
+            style="width: 60%; padding: 10px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  background-color: rgb(101, 123, 188); color: white; border-radius: 20px; text-align: center; margin: 20px;">
+            About Us</h1>
+    </div>
+    <div class="container d-flex flex-xl-row flex-column justify-content-center align-items-center">
+        <div class="card" style="width: 350px; margin: 30px; height: 540px;">
             <img src="assets/indicon-logo-full.png" class="card-img-top" style="height: auto; width: auto;">
             <div class="card-body">
                 <h5 class="card-title">Indicon</h5>
@@ -91,10 +100,10 @@
                 <a style="position: absolute; bottom: 20px; left: 30px;" href="#" class="btn btn-primary">Read More</a>
             </div>
         </div>
-        <div class="card" style="width: 420px; margin: 30px; height: 600px;">
+        <div class="card" style="width: 350px; margin: 30px; height: 540px;">
             <img src="assets/ieee-logo-full.png" class="card-img-top" style="height: auto; width: auto;">
             <div class="card-body">
-                <h5 class="card-title">IEEE India Council</h5>
+                <h5 class="card-title"><br>IEEE India Council</h5>
                 <p class="card-text">IEEE India Council is the umbrella organisation which coordinates IEEE activities
                     in India.
                     Its primary aim is to assist and coordinate the activities of local “Sections”, in order to benefit
@@ -105,7 +114,7 @@
                 <a style="position: absolute; bottom: 20px; left: 30px;" href="#" class="btn btn-primary">Read More</a>
             </div>
         </div>
-        <div class="card" style="width: 420px; margin: 30px; height: 600px;">
+        <div class="card" style="width: 350px; margin: 30px; height: 540px;">
             <img src="assets/pec-nab-image.jpg" class="card-img-top" style="height: auto; width: auto;">
             <div class="card-body">
                 <h5 class="card-title">Punjab Engineering College</h5>
