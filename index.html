@@ -1,244 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>IEEE Indiscon 2024</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+        h1 {
+            font-family: Oswald, sans-serif;
+        }
+
+        p {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        #carouselExampleDark {
+            height: 80%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px;
+        }
+
+        #carouselExampleDark img {
+            border-radius: 30px;
+        }
+
+        .navbar a {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .navbar img {
+            height: 30px;
+            width: 30px;
+        }
+
+        .footerText {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
-<body class="d-flex flex-column h-100">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html">IEEE Indiscon 2024</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="dates.html">Important Dates</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="committees.html">Committees</a></li>
-                        <li class="nav-item"><a class="nav-link" href="callforpapers.html">Call for Papers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
-                        <li class="nav-item"><a class="nav-link" href="travel.html">Venue/Travel</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center">
-                    <div class="col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="my-5 text-center text-xl-start">
-                            <h1 class="display-5 fw-bolder text-white mb-2">5th IEEE India Council International
-                                Subsections Conference (INDISCON) 2024
-                            </h1>
-                            <p class="lead fw-normal text-white-50 mb-4">Conference from August 22, 2024 to August 24, 2024
-                                <br>
-                                IEEE Chandigarh Subsection & Punjab Engineering College (Deemed to be University),
-                                Chandigarh
-                            </p>
-                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="registration.html">Register Now</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="about.html">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
-                            src="assets/pec-image-1.jpg" alt="..." /></div>
-                </div>
-            </div>
-        </header>
-        <div class="container mt-5 mb-5 d-flex flex-column flex-lg-row align-items-center justify-content-center">
-            <div class="d-flex flex-row align-items-center justify-content-center">
-                <img style="width: 200px; margin-right: 20px; height: 120px;" src="assets/indiscon-logo-new.jpg" />
-                <img style="width: 200px; margin: 20px;" src="assets/ieee-india-council.png" />
-                <img style="width: 150px; margin: 20px;" src="assets/ieee-delhi-section.png" />
-            </div>
-            <div class="d-flex flex-row align-items-center justify-content-center">
-                <img style="width: 200px; margin: 20px;" src="assets/ieee-chandigarh-subsection.png" />
-                <img style="width: 120px; margin: 20px;" src="assets/pec-logo-new.jpeg" />
-            </div>
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom border-body" style="background-color: rgba(162, 162, 162, 0.2);" >
+        <div class="container-fluid">
+        <a class="navbar-brand d-none d-xl-inline" href="#">
+            <img style="width: 200px; height: 40px;" src="assets/indiscon-new-logo-withoutbg.png" alt="Bootstrap">
+        </a>
+        <!-- <a class="navbar-brand d-none d-xl-inline" href="#">IEEE INDISCON</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dates.html">Important Dates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="committees.html">Committees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="callforpapers.html">Call for Papers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="travel.html">Venue/Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!-- Features section-->
-        <section style="background-color: rgb(241, 241, 241);" class="py-5" id="features">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h2 class="fw-bolder mb-0">Key Dates & Events</h2>
-                        <p>For complete list of dates refer to the important dates page.</p>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row gx-5 row-cols-1 row-cols-md-2">
-                            <div class="col mb-5 h-100">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-newspaper"></i></div>
-                                <h2 class="h5">Call for papers</h2>
-                                <p class="mb-0">Jan 01, 2024</p>
-                            </div>
-                            <div class="col mb-5 h-100">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-star"></i></div>
-                                <h2 class="h5">Early bird registration</h2>
-                                <p class="mb-0">Before May 31, 2024</p>
-                            </div>
-                            <div class="col mb-5 mb-md-0 h-100">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-calendar-check"></i></div>
-                                <h2 class="h5">Last date for registration</h2>
-                                <p class="mb-0">Jun 15, 2024</p>
-                            </div>
-                            <div class="col h-100">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-calendar"></i></div>
-                                <h2 class="h5">Confrence dates</h2>
-                                <p class="mb-0">August 22-24, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial section-->
-        <div class="py-5 bg-light">
-            <div class="container px-5 my-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-10 col-xl-7">
-                        <div class="text-center">
-                            <div class="fs-4 mb-4 fst-italic">INDISCON is a flagship annual international conference of the IEEE India Council organized by an IEEE Subsection in INDIA. INDISCON 2024 scheduled during August 22-24, 2024, is being organized by IEEE Chandigarh Subsection along with IEEE India Council and IEEE Delhi Section. The conference will be hosted by Punjab Engineeing College (Deemed to be University), Chandigarh. The conference aims to provide an interdisciplinary platform for the academicians, researchers, industry professionals and research scholars to exchange and share their knowledge, experience & research.</div>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="navbar-brand d-none d-xl-inline" href="#">
-                                    <img style="width: 200px; height: 40px;"
-                                        src="assets/indiscon-new-logo-withoutbg.png" alt="Bootstrap">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- Blog preview section-->
-        <section class="py-5">
-            <div class="container px-5 my-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
-                        <div class="text-center">
-                            <h2 class="fw-bolder">Organizing Committee</h2>
-                            <p class="lead fw-normal text-muted mb-5">For a complete list refer to committee page.
-                            </p>
-                        </div>
-                    </div>
+    </nav>
+    <div class="container mt-5 d-flex flex-column flex-lg-row align-items-center justify-content-center">
+        <div class="d-flex flex-row align-items-center justify-content-center">
+            <img style="width: 200px; margin-right: 20px; height: 120px;" src="assets/indiscon-logo-new.jpg" />
+            <img style="width: 200px; margin: 20px;" src="assets/ieee-india-council.png" />
+            <img style="width: 150px; margin: 20px;" src="assets/ieee-delhi-section.png" />
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-center">
+            <img style="width: 200px; margin: 20px;" src="assets/ieee-chandigarh-subsection.png" />
+            <img style="width: 130px; margin: 20px;" src="assets/pec-logo-new.jpeg" />
+        </div>
+    </div>
+    <h1
+        style="font-size: 40px; text-align: center; margin: 20px;">
+        2024 5<sup>th </sup>IEEE India Council International Subsections Conference (INDISCON 2024)</h1>
+    <div class="container d-flex align-items-center justify-content-center">
+        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style=" width:80%; height: 500px;">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="assets/pec-image-1.jpg" class="d-block w-100">
                 </div>
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/sh-deepak-mathur.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Executive Steering Committee</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Sh. Deepak Mathur</h5>
-                                </a>
-                                <p class="card-text mb-0">2024 IEEE, Vice President, MGA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/prof-preti-bajaj.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Executive Steering Committee</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Prof. Preti Bajaj</h5>
-                                </a>
-                                <p class="card-text mb-0">Vice Chair Sustainable Activities,<br> IEEE India Council</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/dr-suresh-nair.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Executive Steering Committee</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Dr. Suresh Nair</h5>
-                                </a>
-                                <p class="card-text mb-0">IEEE India Council Activities, IEEE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/prof-m-n-hoda.png" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Executive Steering Committee</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Prof. M. N. Hoda</h5>
-                                </a>
-                                <p class="card-text mb-0">Executive V.C.
-                                    IEEE Delhi Section</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/prof-baldev-setia.jpeg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Patrons</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Prof. Baldev Setia</h5>
-                                </a>
-                                <p class="card-text mb-0">Director, PEC Chandigarh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="/assets/prof-debbrata-das.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <div class="badge bg-primary bg-gradient rounded-pill mb-4">Patrons</div>
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Prof. Debabrata Das</h5>
-                                </a>
-                                <p class="card-text mb-0">Chair, IEEE India Council</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/pec-image-2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/pec-image-3.jpg" class="d-block w-100">
                 </div>
             </div>
-        </section>
-    </main>
-    <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; Punjab Engineering College (Deemed to be University), Chandigarh.</div>
-                </div>
-                <div class="col-auto">
-                    <a class="link-light small" href="#!">Contact</a>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container p-3">
+        <p
+            style="text-align: center; margin: 10px; font-size: 2.5rem;">
+            August 22-24, 2024</p>
+		<p style="text-align: center; margin: 10px; font-size: 1.1rem;">
+			Organised by: IEEE India Council, IEEE Delhi Section and IEEE Chandigarh Subsection </p>
+        <p style="text-align: center; margin: 10px; font-size: 1.1rem;">
+            Hosted by: Punjab Engineering College (Deemed to be University),<br> Sector-12, Chandigarh, India-160012</p>
+    </div>
+    <footer class="mt-5 bg-light text-center text-lg-start">
+        <div class="text-center p-3 d-flex flex-column flex-sm-row align-items-center justify-content-center"
+            style="background-color:rgba(162, 162, 162, 0.2);">
+            <p class="footerText" style="margin: 5px 5px 5px 5px;">&#169; 2024 Copyright.</p>
+            <p class="footerText" style="margin: 5px 5px 5px 5px;">All Rights Reserved.</p>
+            <p class="footerText" style="margin: 5px 5px 5px 5px;">Designed by Punjab Engineering College</p>
+            <p class="footerText" style="margin: 5px -2px 5px -2px;">(Deemed to be University), Chandigarh.</p>
         </div>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
